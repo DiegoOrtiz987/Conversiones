@@ -18,6 +18,7 @@ public class Aplicacion {
         
         Conversiones decimal = new Conversiones();
         ObjetoRobot robot = new ObjetoRobot();
+        boolean a = true;
         
         String numeroBinario="";
         boolean val=false;
@@ -30,7 +31,13 @@ public class Aplicacion {
        
       JOptionPane.showMessageDialog(null, " El número Binario " + numeroBinario + " corresponde al numero " + decimal.binarioADecimal(numeroBinario)+ " en decimal");
       JOptionPane.showMessageDialog(null, " Fin del programa.");
-        
+     
+      //Adicion de linea prueba para Git
+      
+           if (true) {
+               
+               JOptionPane.showMessageDialog(null, "Prueba mensaje git");
+           }
     }
     
 }
